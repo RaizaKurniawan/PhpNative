@@ -10,19 +10,21 @@
     <title>Create Data for User</title>
 </head>
 <body>
-    <table>   
-        <tr>
-            <td>User ID</td>
-            <td><input type = "text" placeholder = "User ID"></td>
-        </tr>
-        <tr>
-            <td>Password</td>
-            <td><input type = "password" name = "password"></td>
-        </tr>
-        <tr>
-            <td>Action</td>
-            <td><input type = "submit" name = "simpan" value = "Save"></td>
-        </tr>
-    </table>
-</body>
+    <form action = "createprocess.php" method = "POST">
+        <table>   
+            <tr>
+                <td>User ID</td>
+                <td><input type = "text" placeholder = "User ID" name = userid></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type = "password" name = "password"></td>
+            </tr>
+            <tr>
+                <td>Action</td>
+                <td><input type = "submit" name = "simpan" value = "Save"></td>
+            </tr>
+        </table>
+    </form>
+    </body>
 </html>
